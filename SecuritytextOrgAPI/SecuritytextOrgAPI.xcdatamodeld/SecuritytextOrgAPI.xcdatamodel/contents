@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6252" systemVersion="14A388a" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="ResponsesError" representedClassName="ResponsesErrorEntity" syncable="YES">
+        <attribute name="message" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="errors" optional="YES" attributeType="Transformable" syncable="YES"/>
+    </entity>
+    <entity name="AttributesUuid" representedClassName="AttributesUuidEntity" syncable="YES">
+        <attribute name="value" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="RequestsQuery" representedClassName="RequestsQueryEntity" syncable="YES">
+        <attribute name="domain" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="AttributesTimestamps" representedClassName="AttributesTimestampsEntity" syncable="YES">
+        <attribute name="createdAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="updatedAt" optional="YES" attributeType="Date" syncable="YES"/>
+    </entity>
+    <entity name="ResponsesQuery" representedClassName="ResponsesQueryEntity" syncable="YES">
+        <attribute name="found" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="status" optional="YES" attributeType="Integer 64" syncable="YES"/>
+        <attribute name="output" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="ResponsesError" positionX="5" positionY="55" width="128" height="63"/>
+        <element name="AttributesUuid" positionX="34" positionY="-137" width="128" height="45"/>
+        <element name="RequestsQuery" positionX="-425" positionY="432" width="128" height="45"/>
+        <element name="AttributesTimestamps" positionX="51" positionY="94" width="128" height="63"/>
+        <element name="ResponsesQuery" positionX="-234" positionY="446" width="128" height="81"/>
+    </elements>
+</model>
