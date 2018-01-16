@@ -1,0 +1,10 @@
+machine:
+  xcode:
+    version: 7.3
+  environment:
+    XCODE_WORKSPACE: SecuritytextOrgAPI.xcworkspace
+    XCODE_SCHEME: SecuritytextOrgAPI
+
+dependencies:
+  override:   
+   - pod install
